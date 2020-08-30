@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  web-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: web-server
+    volumes:
+      - ./src:/home/node/app/src
+    expose:
+      - "8080"
+    ports:
+      - "8080:3000"
+    command: yarn start
