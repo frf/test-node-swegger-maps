@@ -23,7 +23,7 @@ export default class SpendingController {
             })
         }
 
-        const spendItem = [];
+        const spendItem:any = [];
 
         const dataFile = JSON.parse(readFileSync(path.resolve('./spending.json'), 'utf-8'));
 
