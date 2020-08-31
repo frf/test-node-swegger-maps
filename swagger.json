@@ -9,7 +9,7 @@
         "url": "https://opensource.org/licenses/MIT"
       }
     },
-    "host": "localhost:3000",
+    "host": "node-maps-swegger.herokuapp.com",
     "basePath": "/api",
     "tags": [
       {
@@ -18,7 +18,7 @@
       }
     ],
     "schemes": [
-      "http"
+      "https"
     ],
     "consumes": [
       "application/json"
@@ -31,6 +31,35 @@
         "parameters": [
             {
               "name": "limit",
+              "in": "query",
+              "required": false,
+              "description": "Filter quantitiy",
+              "type": "number"
+            }
+        ],
+        "get": {
+          "summary": "Get all points",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/spendings": {
+        "get": {
+          "summary": "Get all spendings",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/spendings/show": {
+        "parameters": [
+            {
+              "name": "id",
               "in": "query",
               "required": false,
               "description": "Filter quantitiy",
