@@ -1,0 +1,95 @@
+[
+    { 
+      "id": 1,
+      "numberDay": "22",
+      "weekDay": "SEXTA",
+      "spending_itens": [
+        {
+          "id": 1, 
+          "title": "Almoço Restaurante", 
+          "type": "Alimentação", 
+          "amount": "26,00", 
+          "currency": "R$", 
+          "status": 1,
+          "date": "22/09/2019",
+          "isRefund": 1,
+          "companyRefund": " Filial de Santos - SP",
+          "dateTimeRefund": "14/09/19 - 13h50"
+        },
+        {
+          "id": 2, "title": "Almoço Restaurante", 
+          "type": "Alimentação", 
+          "amount": "326,00", 
+          "currency": "R$", 
+          "status": 1,
+          "date": "22/09/2019",
+          "isRefund": 0,
+          "companyRefund": " Filial de Santos - SP",
+          "dateTimeRefund": "14/09/19 - 13h50"
+        }
+      ]
+    },
+    { 
+      "id": 2,
+      "numberDay": "20",
+      "weekDay": "QUARTA",
+      "spending_itens": [
+        {
+          "id": 3, 
+          "title": "Almoço Restaurante", 
+          "type": "Alimentação", 
+          "amount": "26,00", 
+          "currency": "R$", 
+          "status": 0,
+          "date": "22/09/2019",
+          "isRefund": 0,
+          "companyRefund": " Filial de Santos - SP",
+          "dateTimeRefund": "14/09/19 - 13h50"
+        },
+        {
+          "id": 4, 
+          "title": "Almoço Restaurante", 
+          "type": "Alimentação", 
+          "amount": "26,00", 
+          "currency": "R$", 
+          "status": 1,
+          "date": "22/09/2019",
+          "isRefund": 0,
+          "companyRefund": " Filial de Santos - SP",
+          "dateTimeRefund": "14/09/19 - 13h50"
+        }
+      ]
+    },
+    { 
+      "id": 3,
+      "numberDay": "14",
+      "weekDay": "SEGUNDA",
+      "spending_itens": [
+        {
+          "id": 5, 
+          "title": "Almoço Restaurante", 
+          "type": "Alimentação", 
+          "amount": "26,00", 
+          "currency": "R$", 
+          "status": 1,
+          "date": "22/09/2019",
+          "isRefund": 0,
+          "companyRefund": " Filial de Santos - SP",
+          "dateTimeRefund": "14/09/19 - 13h50"
+        },
+        {
+          "id": 6, 
+          "title": "Almoço Restaurante", 
+          "type": "Alimentação", 
+          "amount": "126,00", 
+          "currency": "R$", 
+          "status": 1,
+          "date": "22/09/2020",
+          "isRefund": 0,
+          "companyRefund": " Filial de Santos - SP",
+          "dateTimeRefund": "14/09/19 - 13h50"
+        }
+
+      ]
+    }
+  ]
